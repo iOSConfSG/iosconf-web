@@ -41,6 +41,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: '../images/iosconf-bird.png',
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
