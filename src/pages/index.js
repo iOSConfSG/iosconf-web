@@ -13,6 +13,11 @@ import SpeakerBioItem from "./speakers/SpeakerBioItem";
 import { Transition } from "@headlessui/react";
 import { Helmet } from "react-helmet"
 
+import logoOozou from "../images/logo-oozu.svg"
+import logoGuardsquare from "../images/logo-guardsquare.jpg"
+import logoSeagroup from "../images/logo-seagroup.png"
+import logoSpdigital from "../images/logo-spdigital.svg"
+
 const speakers = [
   {
     "name": "Paul Hudson",
@@ -94,8 +99,6 @@ function IndexPage () {
               </div>
             </div>
           </div>
-          {/* <img className="object-cover w-1/2" src={workshopImage}/> */}
-          {/* <img className="object-cover w-1/2" src={confImage}/> */}
           <div className="w-full md:w-1/2">
             <div className="flex items-center flex-col bg-gray-500 bg-cover bg-top h-0" style={{ backgroundImage: `url(${confImage})`, backgroundBlendMode: "multiply", height: "60vh" }}>
               <div className="text-center text-white my-auto">
@@ -115,7 +118,37 @@ function IndexPage () {
         </div>
         <tito-widget event="iosconfsg/2021"></tito-widget>
       </section>
-      <section className="w-full text-center py-24">
+
+      <section className="w-full py-24">
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
+            Gold Sponsors
+          </h2>
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-center">
+            <img className="h-24 my-4 mx-8 object-contain" src={logoSeagroup} alt="SEA Group" />
+            <img className="h-24 my-4 mx-8 object-contain" src={logoOozou} alt="Oozou" />
+            <img className="h-24 my-4 mx-8" src={logoSpdigital} alt="SPDigital" />
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8 mt-12 mb-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
+            Silver Sponsors
+          </h2>
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-center">
+            <img className="h-12 my-4 mx-8 object-contain" src={logoGuardsquare} alt="Guardsquare" />
+          </div>
+        </div>
+        <div className="w-full">
+          <p className="mb-12 mx-auto text-center">
+            If you&apos;d like to support and engage our iOS community, kindly <a href="mailto:subh@iosconf.sg" className="text-orange-500">get in touch</a> with us for more information. Thank you!
+          </p>
+          <p className="mb-12 mx-auto text-center">
+            <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
+          </p>
+        </div>
+      </section>
+
+      <section className="w-full text-center py-24 bg-gray-100">
         <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
           Speakers
         </h2>
@@ -137,17 +170,7 @@ function IndexPage () {
         </Transition>
       </section>
 
-      <section className="text-center bg-gray-100 py-24">
-        <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
-          Sponsors
-        </h2>
-        <p className="mb-12">
-          If you&apos;d like to support and engage our iOS community, kindly <a href="mailto:subh@iosconf.sg" className="text-orange-500">get in touch</a> with us for more information. Thank you!
-        </p>
-        <p className="mb-12">
-          <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
-        </p>
-      </section>
+
     </Layout >
   );
 }
