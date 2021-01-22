@@ -539,8 +539,8 @@ const schedule = [
   },
   {
     "activity": "iosconfsg21.day2",
-    "start_at": "2021-01-21T06:40:00+00:00",
-    "end_at": "2021-01-21T06:50:00+00:00",
+    "start_at": "2021-01-21T07:40:00+00:00",
+    "end_at": "2021-01-21T07:50:00+00:00",
     "id": 37,
     "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
     "speaker_company": "iOSConfSG",
