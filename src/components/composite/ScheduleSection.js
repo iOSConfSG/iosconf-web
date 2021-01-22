@@ -81,7 +81,7 @@ function ScheduleSection (props) {
 
   return (
     <>
-      <Tabs defaultSelected={'day1'} currentTab={selectedTab}>
+      <Tabs defaultSelected={'day2'} currentTab={selectedTab}>
         <Tabs.Tab labelKey='workshop1'>18 January</Tabs.Tab>
         <Tabs.Tab labelKey='workshop2'>19 January</Tabs.Tab>
         <Tabs.Tab labelKey='day1'>21 January</Tabs.Tab>
