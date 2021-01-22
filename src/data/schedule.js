@@ -507,22 +507,8 @@ const schedule = [
   {
     "activity": "iosconfsg21.day2",
     "start_at": "2021-01-21T06:30:00+00:00",
-    "end_at": "2021-01-21T06:40:00+00:00",
+    "end_at": "2021-01-21T07:05:00+00:00",
     "id": 35,
-    "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
-    "speaker_company": "iOSConfSG",
-    "speaker_image": "organiser",
-    "speaker_name": "Organiser",
-    "speaker_twitter": "iosconfsg",
-    "talk_description": "",
-    "talk_type": "registration",
-    "title": "Energy Boost ⚡️"
-  },
-  {
-    "activity": "iosconfsg21.day2",
-    "start_at": "2021-01-21T06:40:00+00:00",
-    "end_at": "2021-01-21T07:15:00+00:00",
-    "id": 36,
     "speaker_bio": "Roxana is a Romanian mobile developer based in Dubai with a passion for augmented reality. She started coding when she was 13 years old and so far has been part of the development team of over 20 apps including one of the biggest digital public services app in Scandinavia. She is involved in the tech community, both online and offline at local events. As an advocate for women in tech, Roxana is encouraging other girls to join the tech world.",
     "speaker_company": "Nodes",
     "speaker_image": "roxana",
@@ -534,9 +520,9 @@ const schedule = [
   },
   {
     "activity": "iosconfsg21.day2",
-    "start_at": "2021-01-21T07:15:00+00:00",
-    "end_at": "2021-01-21T07:50:00+00:00",
-    "id": 37,
+    "start_at": "2021-01-21T07:05:00+00:00",
+    "end_at": "2021-01-21T07:40:00+00:00",
+    "id": 36,
     "speaker_bio": "Madushan is a lead software engineer at Grab working on the mobile platform team.",
     "speaker_company": "Spotify",
     "speaker_image": "patrick",
@@ -549,6 +535,20 @@ const schedule = [
     "talk_description": "We all share the pain of long compilation times. In this session, Patrick and Erick discuss how the soon-to-be open source tool, XCMetrics, has improved the developer experience for iOS engineers at Spotify and enabled teams to make data-informed decisions about their projects. Along with collecting detailed Xcode build metrics, attendees will get a demo of how developers can find accurately collected build times at a file, or even a function level, warnings, errors, and their machine specifications in order to understand and track the developer experience.",
     "talk_type": "combinedTalk",
     "title": "XCMetrics - The All-In-One Solution to Track Xcode Build Metrics"
+  },
+  {
+    "activity": "iosconfsg21.day2",
+    "start_at": "2021-01-21T06:40:00+00:00",
+    "end_at": "2021-01-21T06:50:00+00:00",
+    "id": 37,
+    "speaker_bio": "iOS Conf SG and iOS Dev Scout Organiser Team",
+    "speaker_company": "iOSConfSG",
+    "speaker_image": "organiser",
+    "speaker_name": "Organiser",
+    "speaker_twitter": "iosconfsg",
+    "talk_description": "10 minutes break",
+    "talk_type": "shortbreak",
+    "title": "Short Break ☕️ 🚻 💬"
   },
   {
     "activity": "iosconfsg21.day2",
@@ -630,7 +630,7 @@ const schedule = [
     "speaker_image": "peter",
     "speaker_name": "Peter Steinberger",
     "speaker_twitter": "steipete",
-    "talk_description": "Making macOS CI better",
+    "talk_description": "At PSPDFKit, we don't have a separate team for CI/CD, our engineering team also owns testing and delivery. In this talk I'll give you an overview of the options today, and will explore what path we took for fast, automated testing in a multi-platform environment. We'll also talk about money, because running cost is an important topic for bootstrapped companies. Lastly, we will look at options around configuration management tools to automate machine setups.",
     "talk_type": "normalTalk",
     "title": "Continuous Integration for the Rest of Us"
   },
